@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+}
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(img-1.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  width: 100%;
+  padding: 1% 3%;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+.nav-links{
+  flex: 5;
+  text-align: right;
+}
+.nav-links {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 55px;
+  position: relative;
+}
+.logo{
+  margin-left: 45px;
+}
+.Log{
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: UberMoveText, sans-serif;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.Log:hover{
+  background-color: rgb(143, 143, 143);
+}
+.Sign{
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px ;
+  font-family: UberMoveText, sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.Sign:hover{
+  background-color: rgb(97, 97, 97);
+}
+.nav-links button{
+  height: 2.5rem;
+  width: 5.7rem;
+  border-radius: 150px;
+  min-height: 48px;
+  line-height: 20px;
+  border: none;
+}
+
+
+.headline{
+  font-size: 52px;
+  font-family:UberMove, sans-serif ;
+  font-weight: 700;
+  max-width: 60%;
+  font-style: normal;
+
+}
+.hdl{
+  padding-top:  230px ;
+  padding-left: 40px;
+}
+.search{
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.address{
+  height: 53px;
+  width: 550px;
+  font-family: UberMoveText, sans-serif;
+  font-weight: 600;
+  border: #fff;
+  font-size: medium;
+}
+.delivery{
+  height: 55px;
+  width: 200px;
+ font-family: UberMoveText, sans-serif;
+ font-weight: 600;
+ background-color: #fff;
+ border: #fff;
+ font-size: medium;
+
+}
+.find{
+  height: 55px;
+  background-color: black;
+  color: #fff;
+  width:120px ;
+  font-family: UberMoveText, sans-serif;
+  font-weight: 600;
+  font-size: large;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.find:hover{
+  background-color: rgb(97, 97, 97);
+}
+.title{
+  height: 50px;
+}
+.link{
+  color: black;
+  font-family: UberMoveText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.aa{
+  color: black;
+}
+.pic{
+    height: 225px;
+    width: 410px;
+    margin-left:20px;
+}
+.bot{
+  padding-top: 75px;
+  padding-left:14px;
+}
+.contant{
+  font-family: UberMoveText, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-left: 20px;
+  font-style: normal;
+
+}
+.last{
+  color: black;
+  margin-left: 20px;
+  font-family:  UberMoveText, sans-serif;
+  font-weight: 300;
+}
+.center{
+  font-family: UberMoveText, sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-left: 40px;
+  font-style: normal;
+}
+
+.ce{
+  margin-left:40px ;
+  margin-top: 15px;
+}
+.u{
+  width: 100%;
+  margin-top: 75px;
+ 
+}
+.se{
+  padding-left: 1125px;
+  color: black;
+  margin-left: 20px;
+  font-family:  UberMoveText, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.tb2{
+  margin-left: 35px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.tb21{
+  width: 325px;
+  height: 45px;
+  cursor: pointer;
+}
+.center1{
+  font-family: UberMoveText, sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+  margin-left: 35px;
+  font-style: normal;
+  margin-top: 20px;
+
+}
+.tb211{
+  width: 325px;
+  height: 45px;
+  font-family: UberMoveText, sans-serif;
+  cursor: pointer;
+}
+.phh{
+  height: 50px;
+  width:200px ;
+  margin-top: 60px;
+  margin-left: 0px;
+  padding-bottom: 280px;
+}
+.hh{
+  color: rgb(233, 234, 235);
+  background-color: none;
+}
+.im1{
+    height: 40px;
+    width: 139px;
+    padding-top: 20px;
+    margin-left: -180px;
+    padding-bottom: 100px;
+    cursor: pointer;
+}
+.im2{
+  height: 20px;
+  width: 20px;
+  margin-top: 20px;
+  margin-left: -142px;
+  cursor: pointer;
+}
+.im3{
+  height: 20px;
+  width: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.im4{
+  height: 20px;
+  width: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.im5{
+    height: 40px;
+    width: 139px;
+    padding-top: 20px;
+    margin-left: 40px;
+    padding-bottom: 100px;
+    cursor: pointer;
+}
+.li1{
+  list-style: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.li1:hover{
+  text-decoration: underline;
+}
+.ulu{
+  margin-right: 185px;
+  margin-top: 30px;
+  float: right;
+  font-family: UberMoveText, sans-serif;
+}
+.ulu1{
+  margin-left: -135px;
+ margin-top: 45px;
+}
+.tb4{
+  font-family: UberMoveText, sans-serif;
+  padding-left: 40px;
+  font-size: small;
+}
+.th3{
+  float: right;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.th6{
+  float: right;
+  margin-right: 50px;
+  margin-top: 15px;
+  margin-bottom: 100px;
+}
